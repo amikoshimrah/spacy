@@ -1,6 +1,9 @@
 #import open ai library
 import openai
 import spacy
+import subprocess
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
 # Load Spacy NER model
 nlp = spacy.load("en_core_web_sm")
 
