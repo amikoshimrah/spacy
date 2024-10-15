@@ -1,6 +1,5 @@
-pip
+pip install --upgrade pip
 openai==0.28
 streamlit
 spacy==3.6.0
-python -m spacy download en_core_web_sm
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
