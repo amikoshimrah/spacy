@@ -1,3 +1,6 @@
+#import open ai library
+import openai
+import spacy
 # Load Spacy NER model
 nlp = spacy.load("en_core_web_sm")
 
